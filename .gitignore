@@ -10,7 +10,7 @@ build/
 .ipynb_checkpoints/
 
 # --- Data & Media ---
-data/               # Raw/processed videos (never commit large files!)
+data/               
 *.mp4
 *.wav
 *.mp3
@@ -18,7 +18,7 @@ data/               # Raw/processed videos (never commit large files!)
 *.png
 
 # --- Environment ---
-.env                # Environment variables
+.env                
 .venv/
 venv/
 env/
@@ -26,24 +26,24 @@ ENV/
 pythonenv*
 
 # --- Logs & Debugging ---
-logs/               # Application logs
+logs/               
 *.log
 *.sqlite
 *.pot
 
 # --- IDE & Editor ---
-.vscode/            # VSCode settings
-.idea/              # JetBrains IDE
-*.swp               # Vim swap files
+.vscode/            
+.idea/              
+*.swp               
 *.swo
 
 # --- OS & Hidden Files ---
-.DS_Store           # macOS
-Thumbs.db           # Windows
+.DS_Store           
+Thumbs.db           
 desktop.ini
 
 # --- Machine Learning / AI ---
-models/             # Trained model weights (often large)
+models/             
 *.h5
 *.pth
 *.pt
