@@ -1,0 +1,36 @@
+# --- Data & Media ---
+data/               
+*.mp4
+*.wav
+*.mp3
+*.log
+
+# --- Python ---
+_pycache_/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.python-version
+
+# --- Environment & Secrets ---
+.env                
+.vscode/            
+.idea/              
+
+# --- Logs ---
+logs/               
+
+# --- Jupyter/Notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- OS & Editor ---
+.DS_Store           
+Thumbs.db           
+*.swp               
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
