@@ -1,36 +1,62 @@
-# --- Data & Media ---
-data/               
-*.mp4
-*.wav
-*.mp3
-*.log
-
 # --- Python ---
 _pycache_/
 *.py[cod]
 *.egg-info/
+*.egg
 dist/
 build/
-.python-version
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
 
-# --- Environment & Secrets ---
-.env                
-.vscode/            
-.idea/              
+# --- Data & Media ---
+data/               # Raw/processed videos (never commit large files!)
+*.mp4
+*.wav
+*.mp3
+*.jpg
+*.png
 
-# --- Logs ---
-logs/               
+# --- Environment ---
+.env                # Environment variables
+.venv/
+venv/
+env/
+ENV/
+pythonenv*
+
+# --- Logs & Debugging ---
+logs/               # Application logs
+*.log
+*.sqlite
+*.pot
+
+# --- IDE & Editor ---
+.vscode/            # VSCode settings
+.idea/              # JetBrains IDE
+*.swp               # Vim swap files
+*.swo
+
+# --- OS & Hidden Files ---
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini
+
+# --- Machine Learning / AI ---
+models/             # Trained model weights (often large)
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# --- Dependency Directories ---
+site-packages/
+.lib-cpython
+
+# --- Documentation ---
+docs/_build/
+*.mo
 
 # --- Jupyter/Notebooks ---
 .ipynb_checkpoints/
 *.ipynb
-
-# --- OS & Editor ---
-.DS_Store           
-Thumbs.db           
-*.swp               
-
-# --- Virtual Environments ---
-venv/
-env/
-.venv/
